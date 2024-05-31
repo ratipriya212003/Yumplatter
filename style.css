@@ -1,0 +1,94 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f8f8;
+    background-image: url(./src/resources/photos/main.jpg);
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    margin-top: 200px;
+    width: 500px;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav.top {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav.top ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav.top ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav.top a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.title {
+    text-align: center;
+    padding: 50px 0;
+}
+
+.main {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: inline-block;
+}
+
+.name {
+    font-size: 48px;
+    color: #333;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+footer {
+    text-align: center;
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+@media screen and (max-width: 767px) {
+    /* Styles specific to mobile view go here */
+
+    /* For example, let's change the background color to light gray */
+    .top {
+        font-size: 0.8rem;
+        margin-top: 40px;
+    }
+
+    /* You can add more styles for mobile view as needed */
+}
